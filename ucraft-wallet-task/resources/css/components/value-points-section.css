@@ -1,0 +1,9 @@
+@layer components {
+    .value-points-section {
+        background: linear-gradient(14.24deg, #AF0152 6.06%, #E41A73 77.42%);
+
+        &__info-section {
+            box-shadow: 4px 7px 20px rgba(46, 61, 141, 0.19);
+        }
+    }
+}

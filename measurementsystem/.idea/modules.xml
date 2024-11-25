@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/interflora-ipos/florist/.idea/florist.iml" filepath="$USER_HOME$/Desktop/interflora-ipos/florist/.idea/florist.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/interflora-ipos/.idea/interflora-ipos.iml" filepath="$USER_HOME$/Desktop/interflora-ipos/.idea/interflora-ipos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/measurementsystem.iml" filepath="$PROJECT_DIR$/.idea/measurementsystem.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+@layer components {
+    .value-proposition-banner {
+        position: relative;
+        background-image: url("../img/hero-bg.svg");
+        background-size: contain, 1% 100%;
+        background-position: center, 97%;
+        background-repeat: repeat, repeat-y;
+
+        &::after {
+            content: " ";
+            position: absolute;
+            width: 1px;
+
+            @apply bg-primary;
+
+            top: 0;
+            right: 5%;
+            height: 100%;
+        }
+
+        @apply bg-topbar;
+
+        &__heading {
+            &::after {
+                content: ".";
+
+                @apply text-primary absolute;
+            }
+        }
+    }
+}

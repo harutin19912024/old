@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/temperature-measurement-system-backend/tests" />
+        <option value="$PROJECT_DIR$/document-upload/tests" />
+        <option value="$PROJECT_DIR$/laravel-vue-js/tests" />
+        <option value="$PROJECT_DIR$/allocation/tests" />
+        <option value="$PROJECT_DIR$/test-task-product-management/tests" />
+        <option value="$PROJECT_DIR$/statistics/tests" />
+        <option value="$PROJECT_DIR$/real-estate/tests" />
+        <option value="$PROJECT_DIR$/ucraft-wallet-task/tests" />
+        <option value="$PROJECT_DIR$/restaurant/tests" />
+      </list>
+    </option>
+  </component>
+</project>

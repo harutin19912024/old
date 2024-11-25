@@ -1,0 +1,5 @@
+@layer components {
+    .account-menu {
+        box-shadow: 4px 7px 22px rgba(46, 61, 141, 0.11);
+    }
+}

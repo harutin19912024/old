@@ -1,0 +1,13 @@
+@layer components {
+    .checkbox-input {
+        @apply mb-7;
+
+        & label {
+            @apply font-secondary text-body-2;
+        }
+
+        & span {
+            @apply font-normal text-default-text;
+        }
+    }
+}

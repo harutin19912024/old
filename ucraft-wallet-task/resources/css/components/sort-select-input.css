@@ -1,0 +1,11 @@
+@layer components {
+    .sort-select-input {
+        input {
+            pointer-events: none;
+        }
+
+        &__dropdown {
+            box-shadow: 1px 1px 7px rgba(46, 61, 141, 0.14);
+        }
+    }
+}

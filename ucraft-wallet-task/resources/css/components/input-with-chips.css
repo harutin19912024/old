@@ -1,0 +1,7 @@
+@layer components {
+    .input-with-chips {
+        &__dropdown {
+            box-shadow: 1px 1px 7px rgba(46, 61, 141, 0.14);
+        }
+    }
+}

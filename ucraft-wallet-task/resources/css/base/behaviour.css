@@ -1,0 +1,7 @@
+@layer base {
+    form[data-behaviour="hideSubmitUntilDirty"] {
+        [data-submit] {
+            display: none;
+        }
+    }
+}

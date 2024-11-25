@@ -1,0 +1,50 @@
+@layer components {
+    .text-container {
+        & h1,
+        & h2,
+        & h3,
+        & h4,
+        & h5,
+        & h6, {
+            @apply font-primary after:text-primary after:absolute after:content-["."] my-3;
+        }
+
+        & p,
+        & b, {
+            @apply font-secondary;
+        }
+
+        & p,
+        & strong, {
+            @apply text-body-1;
+        }
+
+        & strong {
+            @apply font-medium;
+        }
+
+        & figcaption {
+            display: none;
+        }
+
+        & img {
+            @apply my-4 rounded-[20px];
+        }
+
+        & ul {
+            @apply text-default-text font-secondary text-subtitle-1 flex flex-col gap-1 ml-5;
+
+            & > li {
+                &::before {
+                    content: " ";
+                }
+
+                @apply before:text-primary text-default-text before:text-heading-h5 font-secondary text-subtitle-1 before:bg-primary relative before:absolute before:left-[-20px] before:top-[6px] before:block before:h-2 before:w-2 before:rounded-full;
+            }
+        }
+
+        & ol {
+            @apply text-default-text font-secondary text-subtitle-1 flex flex-col gap-1 ml-5 list-decimal;
+        }
+    }
+}

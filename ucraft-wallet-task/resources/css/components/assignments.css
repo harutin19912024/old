@@ -1,0 +1,7 @@
+@layer components {
+    .assignments-page {
+        & .faq-accordeon-panel__content {
+            @apply bg-secondary-white;
+        }
+    }
+}

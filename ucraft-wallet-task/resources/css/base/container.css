@@ -1,0 +1,15 @@
+.container {
+    @apply max-w-[1440px] mx-auto px-2;
+
+    @media (min-width: 350px) {
+        @apply px-4;
+    }
+}
+
+.container-alternative {
+    @apply max-w-[1140px] mx-auto px-2;
+
+    @media (min-width: 350px) {
+        @apply px-4;
+    }
+}

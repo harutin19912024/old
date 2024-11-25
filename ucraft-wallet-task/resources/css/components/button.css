@@ -1,0 +1,36 @@
+@layer components {
+    .primary-button {
+        background: linear-gradient(163.8deg, #E21876 -22.3%, #E41A73 17.87%, #FF2E54 130.44%);
+        box-shadow: 1px 4px 8px rgba(41, 74, 137, 0.15);
+
+        &:hover {
+            background: linear-gradient(168.49deg, #D30464 -25.05%, #E41A73 180.64%);
+        }
+
+        &[disabled] {
+            @apply bg-disabled-button;
+
+            background-image: none;
+        }
+
+        &:focus {
+            background: linear-gradient(168.49deg, #D30464 -25.05%, #E41A73 180.64%);
+        }
+    }
+
+    .secondary-button {
+        &:hover {
+            background: linear-gradient(163.8deg, rgba(226, 24, 118, 0.06) -22.3%, rgba(228, 26, 115, 0.06) 17.87%, rgba(255, 46, 84, 0.06) 130.44%);
+        }
+
+        &[disabled] {
+            @apply border-disabled-button text-disabled-button;
+        }
+    }
+
+    .tertiary-button {
+        &[disabled] {
+            @apply text-disabled-button;
+        }
+    }
+}

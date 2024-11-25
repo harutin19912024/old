@@ -1,0 +1,7 @@
+@layer components {
+    .social-login-buttons {
+        &__google-login-button {
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.084), 0 2px 3px rgba(0, 0, 0, 0.168);
+        }
+    }
+}

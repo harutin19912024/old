@@ -1,0 +1,23 @@
+@layer components {
+    .tippy-box[data-theme~="default"] {
+        filter: drop-shadow(0 0 4px rgba(0, 0, 0, 12%)) drop-shadow(2px 6px 12px rgba(0, 0, 0, 12%));
+
+        @apply bg-secondary-white text-default-text font-secondary text-tooltip rounded;
+    }
+
+    .tippy-box[data-theme~="default"][data-placement^="top"] > .tippy-arrow::before {
+        @apply border-t-secondary-white;
+    }
+
+    .tippy-box[data-theme~="default"][data-placement^="bottom"] > .tippy-arrow::before {
+        @apply border-b-secondary-white;
+    }
+
+    .tippy-box[data-theme~="default"][data-placement^="left"] > .tippy-arrow::before {
+        @apply border-l-secondary-white;
+    }
+
+    .tippy-box[data-theme~="default"][data-placement^="right"] > .tippy-arrow::before {
+        @apply border-r-secondary-white;
+    }
+}

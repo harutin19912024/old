@@ -1,0 +1,7 @@
+.cookie-bar {
+    display: none;
+}
+
+.show--consent .cookie-bar {
+    display: block;
+}

@@ -1,0 +1,26 @@
+@layer components {
+    .menu-item {
+        &:hover {
+            .menu-item__dropdown {
+                display: flex;
+            }
+        }
+
+        &__dropdown {
+            display: none;
+            box-shadow: 4px 7px 22px rgba(46, 61, 141, 0.11);
+        }
+
+        &__dropdown-item-icon {
+            visibility: hidden;
+        }
+
+        &__dropdown-item {
+            &:hover {
+                .menu-item__dropdown-item-icon {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+}

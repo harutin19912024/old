@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/allocation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/autoimport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bank-ocr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/document-upload" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/inventory" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/laravel-vue-js" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/measurementsystem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mintosTask" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/real-estate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/restaurant" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/statistics" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temperature-measurement-system-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/temperature-measurement-system-front" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test-task-product-management" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tic-tac-toy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ucraft-wallet-task" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ucraftUnit" vcs="Git" />
+  </component>
+</project>

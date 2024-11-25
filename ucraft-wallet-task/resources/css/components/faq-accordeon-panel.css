@@ -1,0 +1,31 @@
+@layer components {
+    .faq-accordeon-panel {
+        &__title {
+            @apply rounded-tr-lg rounded-tl-lg rounded-br-lg rounded-bl-lg;
+        }
+
+        & > details[open] {
+            .faq-accordeon-panel__title {
+                @apply rounded-tr-lg rounded-tl-lg rounded-br-none rounded-bl-none;
+            }
+
+            .faq-accordeon-panel__icon {
+                transform: rotate(180deg);
+            }
+        }
+
+        & > summary {
+            &::marker {
+                @apply hidden;
+            }
+
+            &::-webkit-details-marker {
+                display: none;
+            }
+        }
+    }
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}

@@ -1,0 +1,13 @@
+.close-livewire-modal-button {
+    @apply hidden;
+}
+
+.livewire-modal .close-livewire-modal-button {
+    @apply block;
+}
+
+.livewire-modal--modals_search-autocomplete-modal {
+    .livewire-modal__contents {
+        @apply p-0;
+    }
+}

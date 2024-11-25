@@ -1,0 +1,27 @@
+@layer components {
+    .accordeon-panel {
+        & > details[open] {
+            .accordeon-panel__title {
+                @apply text-primary;
+            }
+
+            .accordeon-panel__icon {
+                transform: rotate(180deg);
+            }
+        }
+
+        & > summary {
+            &::marker {
+                @apply hidden;
+            }
+
+            &::-webkit-details-marker {
+                display: none;
+            }
+        }
+    }
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}

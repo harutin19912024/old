@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/allocation/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/allocation/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/autoimport" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/autoimport/backend/web/js/plugins/datatables/extensions/Editor/php/Database" isTestSource="false" packagePrefix="DataTables" />
+      <sourceFolder url="file://$MODULE_DIR$/autoimport/backend/web/js/plugins/datatables/extensions/Editor/php/Editor" isTestSource="false" packagePrefix="DataTables" />
+      <sourceFolder url="file://$MODULE_DIR$/autoimport/backend/web/js/plugins/datatables/extensions/Editor/php/Ext" isTestSource="false" packagePrefix="DataTables" />
+      <sourceFolder url="file://$MODULE_DIR$/autoimport/common" isTestSource="false" packagePrefix="app" />
+      <sourceFolder url="file://$MODULE_DIR$/bank-ocr/spec" isTestSource="true" packagePrefix="BankOcrKata\Spec\" />
+      <sourceFolder url="file://$MODULE_DIR$/bank-ocr/src" isTestSource="false" packagePrefix="BankOcrKata\" />
+      <sourceFolder url="file://$MODULE_DIR$/document-upload/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/document-upload/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/inventory" isTestSource="false" packagePrefix="app" />
+      <sourceFolder url="file://$MODULE_DIR$/inventory/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/inventory/web/js/plugins/datatables/extensions/Editor/php/Database" isTestSource="false" packagePrefix="DataTables" />
+      <sourceFolder url="file://$MODULE_DIR$/inventory/web/js/plugins/datatables/extensions/Editor/php/Editor" isTestSource="false" packagePrefix="DataTables" />
+      <sourceFolder url="file://$MODULE_DIR$/inventory/web/js/plugins/datatables/extensions/Editor/php/Ext" isTestSource="false" packagePrefix="DataTables" />
+      <sourceFolder url="file://$MODULE_DIR$/laravel-vue-js/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/laravel-vue-js/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/laravel-vue-js/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/laravel-vue-js/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/measurementsystem/tests" isTestSource="true" packagePrefix="Ipos\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/real-estate/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/real-estate/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/restaurant/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/restaurant/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/restaurant/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/restaurant/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/statistics/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/statistics/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/temperature-measurement-system-backend/src" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/temperature-measurement-system-backend/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/test-task-product-management/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/test-task-product-management/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/test-task-product-management/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/test-task-product-management/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/ucraft-wallet-task/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/ucraft-wallet-task/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/ucraft-wallet-task/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/ucraft-wallet-task/tests" isTestSource="true" packagePrefix="Tests\" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

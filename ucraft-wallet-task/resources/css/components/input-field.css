@@ -1,0 +1,32 @@
+@layer components {
+    .input-field {
+        &__text-field {
+            & > label {
+                font-size: 1rem;
+                transform: translateY(-50%);
+                transition: 0.1s ease-out;
+                transform-origin: left top;
+                pointer-events: none;
+            }
+
+            & > input {
+                transition: 0.1s ease-out;
+            }
+
+            & > input:focus {
+                border-color: #0F47AF;
+            }
+
+            & > input:focus + label {
+                color: #0F47AF;
+                top: 0;
+                transform: translateY(-50%) scale(0.9);
+            }
+
+            & > input:not(:placeholder-shown) + label {
+                top: 0;
+                transform: translateY(-50%) scale(0.9);
+            }
+        }
+    }
+}

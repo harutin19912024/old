@@ -1,0 +1,46 @@
+@layer base {
+    .footer {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 300px 182px;
+
+        @media (min-width: 768px) {
+            background-image: url(../img/footer-bg-img.png);
+        }
+
+        &__menu-list-item {
+            &:hover {
+                @media (hover: hover) {
+                    @apply bg-light-grey-alternative;
+                }
+
+                @media (min-width: 768px) {
+                    background-color: transparent;
+                }
+            }
+        }
+
+        & .menu-item {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            & > a {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                line-height: 36px;
+
+                @media (min-width: 768px) {
+                    display: block;
+                    line-height: 16px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@layer components {
+    .menu-subitem {
+        &:hover {
+            .menu-subitem__menu-icon {
+                visibility: visible;
+            }
+        }
+
+        &__menu-icon {
+            visibility: hidden;
+        }
+    }
+}
